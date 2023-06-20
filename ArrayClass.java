@@ -13,16 +13,16 @@ public class ArrayClass {
         String[] countries = {"India", "USA", "France", "Japan", "UK"};
 
         // Creating 10 arrays with the new keyword
-        int[] newArray1 = new int[5];
-        int[] newArray2 = new int[5];
-        String[] newArray3 = new String[5];
-        String[] newArray4 = new String[5];
-        double[] newArray5 = new double[5];
-        int[] newArray6 = new int[5];
-        double[] newArray7 = new double[5];
-        boolean[] newArray8 = new boolean[5];
-        String[] newArray9 = new String[5];
-        boolean[] newArray10 = new boolean[5];
+        int[] ages = new int[5];
+        int[] names = new int[5];
+        String[] salaries = new String[5];
+        String[] isMarried = new String[5];
+        double[] cities = new double[5];
+        int[] scores = new int[5];
+        double[] fruits = new double[5];
+        boolean[] weights = new boolean[5];
+        String[] isEmployed = new String[5];
+        boolean[] countries = new boolean[5];
 
         // Changing the values of 5 elements using a for loop
         for (int i = 0; i < 5; i++) {
