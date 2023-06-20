@@ -1,4 +1,4 @@
-public class ArrayExample {
+public class ArrayClass {
     public static void main(String[] args) {
         // Creating 10 meaningful arrays with literals
         int[] ages = {15, 20, 25, 30, 45};
