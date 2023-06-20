@@ -1,4 +1,4 @@
-public class VariableDeclaration {
+public class Variableclass {
     public static void main(String[] args) {
         // Byte variables
         byte age = 25;
