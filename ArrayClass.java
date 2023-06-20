@@ -1,6 +1,6 @@
 public class ArrayClass {
     public static void main(String[] args) {
-        // Creating 10 meaningful arrays with literals
+        // Creating 10 arrays with literals
         int[] ages = {15, 20, 25, 30, 45};
         String[] names = {"Amruta", "Akshata", "siya", "shraddha", "Priya"};
         double[] salaries = {2500.50, 3000.75, 3500.25, 4000.80, 4500.90};
