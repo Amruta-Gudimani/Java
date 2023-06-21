@@ -26,19 +26,19 @@ public class ArrayClass {
 
         // Changing the values of 5 elements using a for loop
         for (int i = 0; i < 5; i++) {
-            salaries[i] *= 1.1;  
+            salaries[i] = 1.1;  
         }
 	for (int i = 0; i < 5; i++) {
-	    ages[i] += 5; 
+	    ages[i] = 5; 
 	}
 	for (int i = 0; i < 5; i++) {
-	    scores[i] -= 5;
+	    scores[i] = 5;
 	}
 	for (int i = 0; i < 5; i++) {
-	    weights[i] += 2.5;
+	    weights[i] = 2.5;
 	}
 	for (int i = 0; i < 5; i++) {
-	    isEmployed[i] = !isEmployed[i];
+	    isEmployed[i] = isEmployed[i];
 	}	 
 
         // Printing the updated values of the arrays
