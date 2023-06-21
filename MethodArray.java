@@ -1,16 +1,16 @@
 public class MethodArray {
     public static void main(String[] args) {
-        method();
+        Mobile();
         Multiple();
         Laptop();
         Addnumbers();
         DisplayResult();
     }
 
-    public static void method() {
+    public static void Mobile() {
         int[] array = {1, 2, 3, 4, 5};
 
-        System.out.print("Method : ");
+        System.out.print("Mobile : ");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
