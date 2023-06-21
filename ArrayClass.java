@@ -28,21 +28,21 @@ public class ArrayClass {
         for (int i = 0; i < 5; i++) {
             salaries[i] *= 1.1;  
         }
-		for (int i = 0; i < 5; i++) {
-			ages[i] += 5; 
-		}
-		for (int i = 0; i < 5; i++) {
-			scores[i] -= 5;
-		}
-		for (int i = 0; i < 5; i++) {
-			weights[i] += 2.5;
-		}
-		for (int i = 0; i < 5; i++) {
-			  isEmployed[i] = !isEmployed[i];
-		}	 
+	for (int i = 0; i < 5; i++) {
+	    ages[i] += 5; 
+	}
+	for (int i = 0; i < 5; i++) {
+	    scores[i] -= 5;
+	}
+	for (int i = 0; i < 5; i++) {
+	    weights[i] += 2.5;
+	}
+	for (int i = 0; i < 5; i++) {
+	    isEmployed[i] = !isEmployed[i];
+	}	 
 
         // Printing the updated values of the arrays
-        System.out.println("Updated values of meaningful arrays:");
+        System.out.println("Updated values of  arrays:");
         System.out.println("Ages: " + Arrays.toString(ages));
         System.out.println("Salaries: " + Arrays.toString(salaries));
         System.out.println("Scores: " + Arrays.toString(scores));
