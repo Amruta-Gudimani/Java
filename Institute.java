@@ -3,18 +3,23 @@ public class Institute {
     	public static float getSomthing(int value1 , int value2){
 		return value1;
 	}
+	
 	public static float getSomthing(int value1 , int value2 , int g3){
 		return value1*value2;
 	}
+	
 	public static float getSomthing(int value1 , float value2){
 		return value1-value2;
 	}
+	
 	public static float getSomthing(float value1 , float value2){
 		return value1*value2;
 	}
+	
 	public static float getSomthing(short value1 , double value2){
 		return value1;
 	}
+	
 	public static float getSomthing(double value1 , short value2){
 		return value2;
 	}
