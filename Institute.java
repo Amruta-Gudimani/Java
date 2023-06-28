@@ -1,20 +1,23 @@
 public class Institute {
 
-    public int add(int a, int b) {
-        return a + b;
-    }
-	
-	public double add(double a, double b) {
-        return a + b;
-    }
-	
-	public int add(int a, int b, int c) {
-        return a + b + c;
-    }
-	
-	public double add(double a, double b, double c) {
-        return a + b + c;
-    }
+    public static float getSomthing(int value1 , int value2){
+		return value1;
+	}
+	public static float getSomthing(int value1 , int value2 , int g3){
+		return value1*value2;
+	}
+	public static float getSomthing(int value1 , float value2){
+		return value1-value2;
+	}
+	public static float getSomthing(float value1 , float value2){
+		return value1*value2;
+	}
+	public static float getSomthing(short value1 , double value2){
+		return value1;
+	}
+	public static float getSomthing(double value1 , short value2){
+		return value2;
+	}
 	
     public int multiply(int a, int b) {
         return a * b;
@@ -86,17 +89,23 @@ public class Institute {
     public static void main(String[] args) {
         Institute myObject = new Institute();
         
-        int sum1 = myObject.add(5, 3);
-        System.out.println("Sum of 5 and 3: " + sum1);
-        
-		double sum2 = myObject.add(2.5, 3.7);
-        System.out.println("Sum of 2.5 and 3.7: " + sum2);
+        float result = getSomthing(3,4);  
+		System.out.println(result);
 		
-		int sum3 = myObject.add(2, 4, 6);
-        System.out.println("Sum of 2, 4, and 6: " + sum3);
+		float result1 = getSomthing(3,4,6);  
+		System.out.println(result1);
 		
-		double sum4 = myObject.add(1.2, 2.3, 3.4);
-        System.out.println("Sum of 1.2, 2.3, and 3.4: " + sum4);
+		float result2 = getSomthing(3,4.8f);  
+		System.out.println(result2);
+		
+		float result3 = getSomthing(3.3f,4.4f);  
+		System.out.println(result3);
+		
+		float result4 = getSomthing((short)3,4.76d);  
+		System.out.println(result4);
+		
+		float result5 = getSomthing(3.78d,(short)4);  
+		System.out.println(result5);
 		
 		int product1 = myObject.multiply(4, 6);
         System.out.println("Product of 4 and 6: " + product1);
