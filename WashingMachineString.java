@@ -3,7 +3,7 @@ public class WashingMachineString {
 		
         // Creating strings using literals
 		
-        String brand = "Whirlpool";
+        	String brand = "Whirlpool";
 		String voltage = "220V";
 		String warranty = "3 years";
 		String color = "Black";
@@ -26,10 +26,10 @@ public class WashingMachineString {
 		String washable = new String("No");
 		
 		System.out.println("Length of brand: " + brand.length());
-        System.out.println("Concatenation of voltage and warranty: " + voltage.concat(warranty));
-        System.out.println("Substring from index 1 to 3 in color: " + color.substring(1, 3));
-        System.out.println("Index of 's' in model: " + model.indexOf('D'));
-        System.out.println("Replacing 'Good' with 'Bad' in quality: " + quality.replace("Good", "Bad"));
+      		System.out.println("Concatenation of voltage and warranty: " + voltage.concat(warranty));
+        	System.out.println("Substring from index 1 to 3 in color: " + color.substring(1, 3));
+        	System.out.println("Index of 's' in model: " + model.indexOf('D'));
+        	System.out.println("Replacing 'Good' with 'Bad' in quality: " + quality.replace("Good", "Bad"));
     }
 }
 
